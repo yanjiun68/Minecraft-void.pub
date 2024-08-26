@@ -1,0 +1,15 @@
+class Creeper {
+	public void trigger() {
+		for (int i = 10; i>0; i = i-1 ) {
+			System.out.println(i);
+			int x = i;
+		}
+		System.out.println("Pop!");
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+		Creeper greenfriend = new Creeper();
+		greenfriend.trigger();
+	}
+}
